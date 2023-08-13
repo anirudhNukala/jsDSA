@@ -77,7 +77,7 @@ This function is O(n) because there is a nested for loop, which means that it wi
 ### Constants don't matter:  
 - O(2n) = O(n) 
 - O(500) = O(1)
--  O(13$n^2$) = O($n^2$)
+-  O($13n^2$) = O($n^2$)
 ### Smaller Terms don't matter:
 - O(n + 10) = O(n)
 - O(1000n + 50) = O(n)
