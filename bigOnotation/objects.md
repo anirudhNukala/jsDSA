@@ -9,11 +9,11 @@ let tamu = {
 }
 ```
 
-## When to use objects
+## When to use objects:
 - When you don't need order
 - When you need fast access or insertion/removal
 
-## Big O of Objects
+## Big O of Objects:
 - Insertion: O(1)
 - Removal: O(1)
 - Searching: O(n)
