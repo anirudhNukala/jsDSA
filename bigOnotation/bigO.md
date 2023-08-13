@@ -18,7 +18,7 @@ function reverse(s) {
     }
 }
 ```
--Implementation 2:
+- Implementation 2:
 ```js
 function reverse(s) {
     let o = [];
@@ -41,7 +41,7 @@ function reverse(s) {
 
 ## Counting operations
 - Counting the number of various discrete arithmetic operations that occur in the function
-- Function can have a fixed value (eg. 3) or it can scale up (eg. 3n, n^2, 2^n)
+- Function can have a fixed value (eg. 3) or it can scale up (eg. 3n, $n^2$, $2^n$)
 
 ## More Examples:
 
@@ -61,7 +61,7 @@ console.log("Back down. Bye!");
 ```
 This function is O(n) because there is only one for loop which means that it will be O(n)
 
-- O(n^2)
+- O($n^2$)
 ```js
 function printAllPairs(n) {
     for (let i = 0; i < n; i++) {
@@ -71,17 +71,17 @@ function printAllPairs(n) {
     }
 }
 ```
-This function is O(n) because there is a nested for loop, which means that it will be O(n^2)
+This function is O(n) because there is a nested for loop, which means that it will be O($n^2$)
 
 ## Simplifying Big O Expressions
 ### Constants don't matter:  
 - O(2n) = O(n) 
 - O(500) = O(1)
--  O(13n^2) = O(n^2)
+-  O(13$n^2$) = O($n^2$)
 ### Smaller Terms don't matter:
 - O(n + 10) = O(n)
 - O(1000n + 50) = O(n)
-- O(n^2 + 5n + 8) = O(n^2)
+- O($n^2$ + 5n + 8) = O($n^2$)
 
 
 ## Big O Shorthands:
@@ -108,7 +108,7 @@ function sum(arr) {
 ```
 This is space complexity O(1) because there is only one variable and since it is a number, it takes up the same amount of space no matter what
 
--O(n)
+- O(n)
 ```js
 function double(arr) {
     let newArr = [];
