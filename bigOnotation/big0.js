@@ -26,3 +26,7 @@ addUpTo2(1000000000);
 let t4 = performance.now();
 console.log(`Time Elapsed for addUpTo2: ${((t4-t3) / 1000)} seconds.`);
 console.log('This reflects O(1)')
+
+const x = 10;
+const y = 20;
+console.log(x + y);
